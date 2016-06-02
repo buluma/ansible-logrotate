@@ -50,7 +50,7 @@ Here is a list of all the default variables for this role, which are also availa
 #       - copytruncate
 #       - delaycompress
 #     scripts:
-#       - postrotate: "[ -s /run/nginx.pid ] && kill USR1 `cat /run/nginx.pid`"
+#       postrotate: "[ -s /run/nginx.pid ] && kill USR1 `cat /run/nginx.pid`"
 #
 
 # package name (version)
