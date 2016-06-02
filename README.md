@@ -1,7 +1,7 @@
 # Ansible Logrotate Role
 
 [![Build Status](https://img.shields.io/travis/weareinteractive/ansible-logrotate.svg)](https://travis-ci.org/weareinteractive/ansible-logrotate)
-[![Galaxy](http://img.shields.io/badge/galaxy-franklinkim.logrotate-blue.svg)](https://galaxy.ansible.com/list#/roles/)
+[![Galaxy](http://img.shields.io/badge/galaxy-franklinkim.supervisor-blue.svg)](https://galaxy.ansible.com/list#/roles/3325)
 [![GitHub Tags](https://img.shields.io/github/tag/weareinteractive/ansible-logrotate.svg)](https://github.com/weareinteractive/ansible-logrotate)
 [![GitHub Stars](https://img.shields.io/github/stars/weareinteractive/ansible-logrotate.svg)](https://github.com/weareinteractive/ansible-logrotate)
 
@@ -50,7 +50,7 @@ Here is a list of all the default variables for this role, which are also availa
 #       - copytruncate
 #       - delaycompress
 #     scripts:
-#       - postrotate: "[ -s /run/nginx.pid ] && kill USR1 `cat /run/nginx.pid`"
+#       postrotate: "[ -s /run/nginx.pid ] && kill USR1 `cat /run/nginx.pid`"
 #
 
 # package name (version)
