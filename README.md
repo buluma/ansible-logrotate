@@ -1,6 +1,6 @@
 # Ansible Logrotate Role
 
-[![Build Status](https://img.shields.io/travis/weareinteractive/ansible-logrotate.svg)](https://travis-ci.org/weareinteractive/ansible-logrotate)
+[![Build Status](https://travis-ci.org/buluma/ansible-logrotate.svg?branch=master)](https://travis-ci.org/buluma/ansible-logrotate)
 [![GitHub Tags](https://img.shields.io/github/tag/weareinteractive/ansible-logrotate.svg)](https://github.com/weareinteractive/ansible-logrotate)
 [![GitHub Stars](https://img.shields.io/github/stars/weareinteractive/ansible-logrotate.svg)](https://github.com/weareinteractive/ansible-logrotate)
 
