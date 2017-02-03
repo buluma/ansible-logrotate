@@ -1,8 +1,8 @@
 ---
 
 galaxy_info:
-  author: franklin
-  company: We Are Interactive
+  author: michael
+  company: ShadowNet
   description: Installs and configures logrotate
   min_ansible_version: 1.9
   license: MIT
@@ -12,11 +12,11 @@ galaxy_info:
   # platform on this list, let us know and we'll get it added!
   #
   platforms:
-  #  - name: EL
-  #    versions:
+    - name: EL
+      versions:
   #      - all
   #      - 5
-  #      - 6
+        - 6
   #  - name: GenericUNIX
   #    versions:
   #      - all
