@@ -26,7 +26,7 @@ Using `requirements.yml`:
 Using `git`:
 
 ```
-$ git clone https://github.com/weareinteractive/ansible-logrotate.git franklinkim.logrotate
+$ git clone https://github.com/buluma/ansible-logrotate.git franklinkim.logrotate
 ```
 
 ## Dependencies
@@ -82,7 +82,7 @@ logrotate_scripts: []
 ## Testing
 
 ```
-$ git clone https://github.com/weareinteractive/ansible-logrotate.git
+$ git clone https://github.com/buluma/ansible-logrotate.git
 $ cd ansible-logrotate
 $ vagrant up
 ```
