@@ -26,4 +26,4 @@ notifications:
     recipients:
       - me@buluma.me.ke
     on_success: always # default: change
-on_failure: always # default: always
+    on_failure: always # default: always
