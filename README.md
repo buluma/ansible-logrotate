@@ -14,7 +14,7 @@
 Using `ansible-galaxy`:
 
 ```
-$ ansible-galaxy install franklinkim.logrotate
+$ ansible-galaxy install buluma.logrotate
 ```
 
 Using `requirements.yml`:
@@ -26,7 +26,7 @@ Using `requirements.yml`:
 Using `git`:
 
 ```
-$ git clone https://github.com/buluma/ansible-logrotate.git franklinkim.logrotate
+$ git clone https://github.com/buluma/ansible-logrotate.git buluma.logrotate
 ```
 
 ## Dependencies
