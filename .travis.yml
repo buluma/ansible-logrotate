@@ -1,7 +1,7 @@
 ---
 
 language: python
-python: "2.7"
+python: "3.7"
 before_install:
  - sudo apt-get update -qq
  - sudo apt-get install -qq python-apt python-pycurl
@@ -9,7 +9,7 @@ install:
   - pip install ansible
 script:
   - echo localhost > inventory
-  - ln -s ansible-logrotate ../franklinkim.logrotate
+  - ln -s ansible-logrotate ../buluma.logrotate
   - ansible-playbook --syntax-check -i inventory test.yml
   - ansible-playbook -i inventory test.yml --connection=local --sudo -vvvv
 
