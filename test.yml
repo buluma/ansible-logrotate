@@ -1,9 +1,8 @@
 ---
 
 - hosts: all
-  sudo: yes
   roles:
-    - franklinkim.logrotate
+    - buluma.logrotate
   vars:
     logrotate_scripts:
       - name: syslog
