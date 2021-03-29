@@ -11,8 +11,7 @@ script:
   - echo localhost > inventory
   - ln -s ansible-logrotate ../franklinkim.logrotate
   - ansible-playbook --syntax-check -i inventory test.yml
-#  - ansible-playbook -i inventory test.yml --connection=local --sudo -vvvv
-  - ansible-playbook -i inventory test.yml --connection=local -vvvv
+  - ansible-playbook -i inventory test.yml --connection=local --sudo -vvvv
 
 #notifications:
 #  webhooks: https://galaxy.ansible.com/api/v1/notifications/
