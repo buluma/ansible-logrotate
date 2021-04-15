@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/buluma/ansible-logrotate.svg?branch=master)](https://travis-ci.org/buluma/ansible-logrotate)
 [![GitHub Tags](https://img.shields.io/github/tag/buluma/ansible-logrotate.svg)](https://github.com/buluma/ansible-logrotate)
-[![GitHub Stars](https://img.shields.io/github/stars/weareinteractive/ansible-logrotate.svg)](https://github.com/weareinteractive/ansible-logrotate)
+[![GitHub Stars](https://img.shields.io/github/stars/weareinteractive/ansible-logrotate.svg)](https://github.com/weareinteractive/ansible-logrotate) [![HitCount](http://hits.dwyl.com/buluma/buluma/ansible-role-security.svg)](http://hits.dwyl.com/buluma/buluma/ansible-role-security)
 
 > `logrotate` is an [ansible](http://www.ansible.com) role which:
 >
