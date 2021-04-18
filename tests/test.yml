@@ -1,5 +1,7 @@
 ---
 - hosts: localhost
-  remote_user: root
+#   remote_user: root
+  become: yes
+  become_method: su
   roles:
     - logrotate
