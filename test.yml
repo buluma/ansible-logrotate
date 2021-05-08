@@ -1,6 +1,7 @@
 ---
 
 - hosts: all
+  become: yes
   roles:
     - buluma.logrotate
   vars:
