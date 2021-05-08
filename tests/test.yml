@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  become: yes
+  become: root
   vars:
     logrotate_scripts:
       - name: nginx-options
