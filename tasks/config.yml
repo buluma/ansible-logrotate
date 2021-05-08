@@ -1,6 +1,8 @@
 ---
 
 - name: Configuring logrotate
+  become: yes
+  become_method: enable
   template:
     src: etc-logrotate.d-item.j2
     dest: "/etc/logrotate.d/{{ item.name }}"
